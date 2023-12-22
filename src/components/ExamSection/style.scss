@@ -1,0 +1,43 @@
+.exam-selection-container {
+  text-align: center;
+  margin: 20px;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: #898b8c;
+    background-color: #fff;
+    margin: 3%;
+  }
+
+  .department-buttons {
+    display: flex;
+    justify-content: center;
+
+    button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 2px solid #cecfd0;
+      border-radius: 5px;
+      color: #898b8c;
+      background-color: #fff;
+      outline: none;
+
+      &.selected {
+        background-color: #898b8c;
+        color: #fff;
+      }
+    }
+  }
+}
